@@ -1,0 +1,65 @@
+.description {
+  position: relative;
+  display: inline-block;
+  left: 50px;
+}
+
+.imgcontainer {
+  position: relative;
+  display: inline-block;
+}
+
+.imgcontainer img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+}
+
+.waterbg {
+  position: relative;
+  left: 100px;
+  height: 500px;
+  width: 500px;
+  background-image: url("images/water.jpg");
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.container {
+  position: relative;
+  display: block;
+  top: -500px;
+}
+
+.firstimg {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.firstimg img {
+  width: 300px;
+  height: auto;
+}
+
+.secondimg {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.secondimg img {
+  width: 300px;
+  height: auto;
+}
+
+.tables {
+  display: inline-block;   
+}
+
+form input, form label, form textarea{
+margin-top: 5px;
+}
