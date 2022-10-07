@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Oleo+Script:wght@400;700&display=swap');
+
+body{
+  background-color:#FEF1E6;
+  font-family: 'Dosis', sans-serif;
+  color: #FF8585;
+
+}
+
 .description {
   position: relative;
   display: inline-block;
@@ -13,22 +22,7 @@
   width: 125px;
   height: 125px;
   object-fit: cover;
-}
-
-.waterbg {
-  position: relative;
-  left: 100px;
-  height: 500px;
-  width: 500px;
-  background-image: url("images/water.jpg");
-  display: inline-block;
-  opacity: 0.5;
-}
-
-.container {
-  position: relative;
-  display: block;
-  top: -500px;
+  border-radius: 50%;
 }
 
 .firstimg {
@@ -63,3 +57,22 @@
 form input, form label, form textarea{
 margin-top: 5px;
 }
+
+hr{
+  border-style: none;
+  border-top: 7px dotted #729fd8;
+  width: 10%;
+}
+
+h1{
+  font-family: 'Oleo Script', cursive;
+  color: #FF4646;
+  height: 3em;
+}
+
+h3{
+  font-family: 'Oleo Script', cursive;
+  color: #FF4646;
+  height: 2.3em;
+}
+
